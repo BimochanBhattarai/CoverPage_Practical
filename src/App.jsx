@@ -1,11 +1,13 @@
-import './App.css'
-import PdfFormat from './components/PdfFormat';
+import "./App.css";
+import Form from "./components/Form";
+import PdfFormat from "./components/PdfFormat";
 
 function App() {
-
   return (
-    <PdfFormat />
-  )
+    <div className="hero">
+      <Form />
+    </div>
+  );
 }
 
-export default App
+export default App;
